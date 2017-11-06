@@ -17,11 +17,12 @@ Word2Vec model for chinese word
 - jieba extra_dict : [dict](https://github.com/fxsjy/jieba/tree/master/extra_dict)
 
 ## Train
-
-`python3 wiki_to_txt.py [DATASET].xml.bz2`
-`opencc -i wiki_texts.txt -o wiki_zh_tw.txt -c s2tw.json`
-`python3 segment.py`
-`python3 train.py`
+```shell
+python3 wiki_to_txt.py [DATASET].xml.bz2
+opencc -i wiki_texts.txt -o wiki_zh_tw.txt -c s2tw.json
+python3 segment.py
+python3 train.py
+```
 
 ## Reference
 
